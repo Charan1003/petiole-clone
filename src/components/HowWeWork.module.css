@@ -1,0 +1,54 @@
+.section {
+  padding: 60px 10%;
+  background: #174d3d;
+  color: white;
+}
+
+.label {
+  color: #ffd071;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.section h2 {
+  max-width: 1000px;
+  margin: 24px 0 50px;
+  font-size: 35px;
+  line-height: 1.25;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+  border-top: 3px solid #d4b95c;
+  padding-top: 20px;
+}
+
+.card {
+  min-height: 280px;
+  padding: 25px 15px;
+  border: 1px solid #667b5a;
+  border-radius: 32px;
+  text-align: center;
+}
+
+.number {
+  color: #ffd071;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card h3 {
+  margin: 44px 0 18px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.card p {
+  margin: 0;
+  color: #e0e7e3;
+  font-size: 18px;
+  line-height: 1.5;
+}

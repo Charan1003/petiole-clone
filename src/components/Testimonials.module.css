@@ -1,0 +1,52 @@
+.section {
+  padding: 30px 18%;
+  background: #174d3d;
+  color: white;
+}
+
+.label {
+  color: #ffd071;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.section h2 {
+  max-width: 600px;
+  margin: 20px 0 60px;
+  font-size: 28px;
+  line-height: 1.25;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.card {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 36px;
+  border: 1px solid #345e4f;
+  border-radius: 26px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.card blockquote {
+  margin: 0;
+  color: #e5e9e6;
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.card strong {
+  color: #ffd071;
+  font-size: 18px;
+}
+
+.card div p {
+  margin: 8px 0 0;
+  color: #b8c7c0;
+}
